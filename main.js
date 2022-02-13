@@ -277,7 +277,7 @@ const finish = async (event) => {
   const div = document.getElementById(id);
   const textarea = div.children[0];
   const text = textarea.value;
-  const isCheck = Object.keys(tasks).includes(id;
+  const isCheck = Object.keys(tasks).includes(id);
   patchOnServer(!isCheck, textarea, id, 'finish');
 }
 
